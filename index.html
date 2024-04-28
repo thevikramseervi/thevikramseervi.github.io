@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My name is Vikram Seervi, I am a passionate Web Developer and Software Developer.">
+    <meta name="description"
+        content="My name is Vikram Seervi, I am a passionate Web Developer and Software Developer.">
     <title>Vikram Seervi</title>
     <link rel="icon" type="image/png" href="img/bg.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,14 +32,13 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hi, My name is <span class="purple">Vikram</span>
+                Hi there! My name is <span class="purple">Vikram Seervi</span>
                 <div>and I am a passionate</div>
                 <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="img/bg.png" alt="">
             </div>
-
         </section>
         <hr>
     </main>
@@ -43,7 +46,7 @@
     <!-- Setup and start animation! -->
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer and', 'Software Developer.'],
+            strings: ['Web Developer', 'Software Developer'],
             typeSpeed: 50,
             loop: true,
         });
